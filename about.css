@@ -1,0 +1,18 @@
+h1{
+    color: rgb(7, 116, 116);
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline rgb(6, 154, 154);
+    text-transform: capitalize;
+}
+
+h2{
+    color: rgb(7, 116, 116) ;
+    text-align: center;
+    text-decoration: underline rgb(7, 116, 116);
+}
+
+p{
+    color: black;
+    text-align: justify;
+}

@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+body{
+    background-color: rgb(241, 241, 173);
+}
+.container{
+    background-color: rgb(241, 241, 173);
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        align-items: center;
+        h1{
+        font-size: 16px;
+        gap:10px;
+    }
+    h2{
+        font-size: 16px;
+        color: orange;
+    }
+    a{
+        background-color:white;
+        color:black;
+        padding: 10px;
+        border-radius: 40px;
+        border: 1px solid red;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: center;
+    }
+    }
+    
+    .navbar1{
+        display: flex;
+        gap: 10px;
+        height: 40px;
+        background-color: white;
+        position: relative;
+        margin-top: 15px;
+        width: 90%;
+        left: 50px;
+        background-color: white;
+        border-radius: 40px;
+        align-items: center;
+        padding: 10px;
+        img{
+            width: 260px;
+            height: 30px;
+        }
+        a{
+            position: relative;
+            left: 100px;
+            background-color: white;
+        color:grey;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: center;
+
+        }
+    }
+    .content{
+        position: relative;
+        top: 70px;
+        left:20px;
+        padding: 30px;
+        h1{
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            text-align: center;
+        }
+        h2{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:black;
+            text-align: center;
+            padding: 30px;
+            font-weight: 100;
+        }
+    }
+    .navbar2{
+        display: flex;
+        gap: 10px;
+        height: 40px;
+        position: relative;
+        top: 60px;
+        left: 45px;
+        background-color: white;
+        width: 90%;
+        background-color: white;
+        border-radius: 40px;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-around;
+
+        img{
+            width: 260px;
+            height: 30px;
+        }
+        a{
+            position: relative;
+            left: 40px;
+            background-color: white;
+            color:grey;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+        }
+        #uni1{
+            background-color: orange;
+            color:white;
+            padding: 10px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+        
+        }
+    }
+
+    .cards{
+        img{
+            position: relative;
+            top: 90px;
+            left: 500px;
+            width: 300px;
+            align-items: center;
+            height: 510px;
+            border-radius: 20px;
+
+        }
+        .card{
+            h1{
+                position: absolute;
+                font-size: 22px;
+                top: 500px;
+                left: 40px;
+                border: 1px solid rgb(244, 181, 244);
+                width: 350px;
+                background-color: rgb(244, 181, 244);
+                padding: 40px;
+                border-radius: 20px;
+            }
+            h2{
+                position: absolute;
+                font-size: 22px;
+                top: 700px;
+                left: 40px;
+                border: 1px solid rgb(255, 152, 255);
+                width: 350px;
+                background-color: rgb(193, 244, 248);
+                padding: 40px;
+                border-radius: 20px;
+            }
+            h3{
+                position: absolute;
+                font-size: 22px;
+                top: 900px;
+                left: 40px;
+                border: 1px solid rgb(247, 238, 155);
+                width: 350px;
+                background-color: rgb(247, 238, 155);
+                padding: 40px;
+                border-radius: 20px;
+            }
+            h4{
+                position: absolute;
+                font-size: 22px;
+                top: 500px;
+                right: 10px;
+                border: 1px solid pink;
+                width: 350px;
+                background-color:pink;
+                padding: 40px;
+                border-radius: 20px;
+            }
+            h5{
+                position: absolute;
+                font-size: 22px;
+                top: 700px;
+                right: 10px;
+                border: 1px solid rgb(247, 238, 155);
+                width: 350px;
+                background-color: rgb(236, 186, 93);
+                padding: 40px;
+                border-radius: 20px;
+
+            }
+            h6{
+                position: absolute;
+                font-size: 22px;
+                top: 900px;
+                right: 10px;
+                border: 1px solid rgb(247, 238, 155);
+                width: 350px;
+                background-color: rgb(161, 253, 161);
+                padding: 40px;
+                border-radius: 20px;
+            }
+
+        }
+        
+    }
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 240px;
+        right: 15%;
+        justify-content: center;
+        h1{
+            font-size: 50px;
+            margin-left:400px ;
+        }
+        h2{
+            font-size: 22px;
+            padding: 20px;
+            margin-left:420px ;
+        }
+    }
+    .cards2{
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        gap: 20px;
+        top: 300px;
+        justify-content: space-around;
+        .card2{
+            border: 1px solid red;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 10px;
+            background-color: pink;
+            width: 200px;
+            i{
+                font-size: 80px;
+                color: orange;
+                padding: 20px;
+            }
+            h1{
+                text-align: center;
+                font-size: 22px;
+            }
+            h2{
+                font-size: 18px;
+                color: rgb(68, 66, 66);
+            }
+            .list{
+                display: flex;
+                gap: 20px;
+                li{
+                    list-style: none;
+                    font-size: 16px;
+                    border: 1px solid red;
+                    padding: 10px;
+                    border-radius: 10px;
+                    color:red;
+                    background-color: pink;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
+
+.container2{
+    .navbar{
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        width: 90%;
+        left: 50px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid red;
+        position: sticky;
+        margin-top: 400px;
+        top: 20px;
+        a{
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+           
+        }
+        #uni2{
+            color: orange;
+            font-weight: bold;
+        }
+    }
+    .cards3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .card3{
+            width: 300px;
+            border-radius: 10px;
+            border: 1px solid red;
+            padding: 20px;
+            align-items: center;
+            img{
+                width: 100px;
+            }
+            h1{
+                font-size: 18px;
+            }
+        }
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        border: 1px solid red;
+        border-radius: 20px;
+        padding-top: 100px;
+        background-color: white;
+        align-items: center;
+        margin-left:40px ;
+        h1{
+            text-align: center;
+            font-size: 40px;
+            margin-left: 400px;
+        }
+        #img1{
+            margin-left: 308px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 40px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+#project{
+    #heading{
+        #title{
+            text-transform: uppercase;
+            text-align: center;
+            font-style: italic;
+            text-decoration: underline;
+            color: red;
+        }
+    }
+    #text{
+        #one{
+            color: blue;
+            font-family: cursive;
+        }
+        img{
+            width: 30%;
+            height: 300px;
+        }
+        #two{
+            text-transform: capitalize;
+            font-family: cursive;
+        }
+        #full{
+            font-family:cursive;
+            text-transform: capitalize;
+        }
+        #para{
+            color: green;
+            font-family: cursive;
+            width: 50%;
+            text-align: justify;
+        }
+        
+    }
+    #logo{
+        a{
+        text-decoration: none;
+        color: red;
+        }
+    }
+}

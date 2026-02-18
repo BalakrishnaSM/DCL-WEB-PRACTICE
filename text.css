@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: red;
+}
+.project{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 10px, solid, black;
+    border-radius: 10px;
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    a{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+

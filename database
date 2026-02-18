@@ -1,0 +1,27 @@
+character datatypes : char varchar clob/text
+
+Numeric: int bigint float double decimal
+
+date : date time date-time
+
+
+constraints:
+    unique
+    not null
+    check
+    primary key 
+    foreign key
+    default
+    auto increment
+    enum
+indexes:
+    single column  
+    multi column
+    unique index
+    full text index
+    cluster index
+    bitmap index
+transactions:
+    begin   
+    commit  
+     rollback   
