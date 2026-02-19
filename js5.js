@@ -14,15 +14,26 @@
 // console.log(typeof(y))
 
 
-let a = "ravishastry"
-let company = "dheecodinglab"
-let address = "banglore"
+// let a = "ravishastry"
+// let company = "dheecodinglab"
+// let address = "banglore"
 
-let y=(a.slice(0,6)+company+a.slice(6))
+// let y=(a.slice(0,6)+company+a.slice(6))
 
-let x=(y.slice(0,12)+address+y.slice(12))
+// let x=(y.slice(0,12)+address+y.slice(12))
 
-let z=(x+x+x+x+x)
+// let z=(x+x+x+x+x)
 
 
-a=console.log(z.slice(0,79)+a.toUpperCase()+z.slice(79))
+// a=console.log(z.slice(0,79)+a.toUpperCase()+z.slice(79))
+
+let a = 100.999999999999991111111111111;
+console.log(a.toFixed(15))
+console.log(a.toString())
+
+// Operations -----
+/*Arithmetic,Assignment,Comparison,Logical, */
+// Diff between == ,===
+
+
+
